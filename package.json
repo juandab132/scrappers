@@ -1,0 +1,24 @@
+{
+  "name": "acculynx-update",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "login": "tsx src/login.ts",
+    "list": "tsx src/list.ts",
+    "jobs": "tsx src/jobs.ts",
+    "photos": "tsx src/photos.ts",
+    "docs": "tsx src/docs.ts",
+    "comms": "tsx src/comms.ts",
+    "all": "tsx src/list.ts && tsx src/jobs.ts && tsx src/photos.ts && tsx src/docs.ts && tsx src/comms.ts",
+    "financials": "tsx src/financials.ts"
+  },
+  "dependencies": {
+    "playwright": "^1.48.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
